@@ -8,11 +8,11 @@ type User struct {
 	Lastname  string
 	Username  string
 	Email     string
-	Phone     uint8
+	Phone     uint64
 	Address   string
 	Role      int
 	Image     string
-	Password  int
+	Password  string
 	CreateAt  time.Time
 	UpdateAt  time.Time
 	DeleteAt  time.Time
